@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "YOU API KEY",
+    apiKey: "YOUR API KEY",
     authDomain: "cooking-figo.firebaseapp.com",
     projectId: "cooking-figo",
     storageBucket: "cooking-figo.firebasestorage.app",
