@@ -13,13 +13,14 @@ export default function Recipe() {
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(null); 
 
+  
+
   useEffect(() => {
     setIsPending(true); 
     setError(null);     
 
     
-    projectFirestore.collection('recipes').doc(id).get()
-      .then((doc) => {
+    const unsub = projectFirestore.collection('recipes').doc(id).onSnapshot((doc) => {
         if (doc.exists) {
           
           setRecipe({ id: doc.id, ...doc.data() });
@@ -30,13 +31,15 @@ export default function Recipe() {
           setIsPending(false); 
         }
       })
-      .catch((err) => {
-        
-        setError(err.message);
-        setIsPending(false);
-      });
-
+      
+       return () => unsub()
   }, [id]); 
+
+  const handleClick = () =>{
+    projectFirestore.collection("recipes").doc(id).update({
+      title:"something completly diff"
+    })
+  }
 
   return (
     <div className={`recipe ${mode}`}>
@@ -50,6 +53,7 @@ export default function Recipe() {
             {recipe.ingredients && Array.isArray(recipe.ingredients) && recipe.ingredients.map(ing => <li key={ing}>{ing}</li>)}
           </ul>
           <p className='method'>{recipe.method}</p>
+          <button onClick={handleClick}>Update me</button>
         </>
       )}
       {!isPending && !recipe && !error && <p>Recipe details will appear here.</p>}
