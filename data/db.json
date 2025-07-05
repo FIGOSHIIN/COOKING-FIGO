@@ -1,0 +1,115 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Stew",
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Veggie Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomata pasata",
+        "1 Green pepper",
+        "100g Mushrooms"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Greek Salad",
+      "ingredients": [
+        "1 Onion",
+        "1 Block of Feta",
+        "Olives",
+        "Tomatoes",
+        "Olive Oil"
+      ],
+      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "ff10",
+      "title": "chicken alfredo",
+      "ingredients": [
+        "alfredo sause",
+        "mushrooms",
+        "white cream"
+      ],
+      "method": "blah blah blah blah blah ",
+      "cookingTime": "40 minutes"
+    },
+    {
+      "id": "7613",
+      "title": "chicken mhammer",
+      "ingredients": [
+        "chicken",
+        "onions",
+        "garlic",
+        "spices",
+        "water",
+        "smen"
+      ],
+      "method": "rawr rawr rawr rawr rawr rawr rawr rawr rawr",
+      "cookingTime": "55 minutes"
+    },
+    {
+      "id": "55e2",
+      "title": "couscous",
+      "ingredients": [
+        "vegetables",
+        "humus",
+        "couscous",
+        "chicken",
+        "water",
+        "spices"
+      ],
+      "method": "If you plan to cook 1 cup of couscous, you’ll need 1 cup of boiling broth or water (but look at the couscous package as some may require a different ratio). Use too much liquid and your couscous will be a bit on the sticky side. And if you use too little liquid, your couscous will be drier (this may work well, if you’re tossing couscous in a salad where salad dressing will add more moisture).",
+      "cookingTime": "60 minutes"
+    },
+    {
+      "id": "dbaa",
+      "title": "kjwdaw",
+      "ingredients": [
+        "aliuwdhawd",
+        "dawda",
+        "awdawdawd",
+        "awdawda",
+        "aawdawd"
+      ],
+      "method": "awdawdawdadawd",
+      "cookingTime": "30 minutes"
+    },
+    {
+      "id": "b043",
+      "title": "ili",
+      "ingredients": [
+        "posef",
+        "sefsf",
+        "awdaw"
+      ],
+      "method": "kanwdlkjadljianwd;a;wdawda;iuwdh;alodu",
+      "cookingTime": "40 minutes"
+    },
+    {
+      "id": "1eb5",
+      "title": "yooooooooo",
+      "ingredients": [
+        "yo",
+        "oo",
+        "yooo"
+      ],
+      "method": "yooooooooooooooooooooooo",
+      "cookingTime": "10 minutes"
+    }
+  ]
+}
